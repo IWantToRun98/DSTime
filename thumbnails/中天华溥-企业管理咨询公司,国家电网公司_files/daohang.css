@@ -1,0 +1,99 @@
+﻿/*body, div, ul, li{margin:0;padding:0;}
+
+body{font-family:"微软雅黑", Arial, Helvetica, sans-serif;color:#333333;line-height:25px;font-size:14px;}
+
+a:link, a:visited{text-decoration:none;color:#333333;}
+
+a:hover{text-decoration:underline;color:#08A5E0;text-decoration:none;}
+
+ul, ul li{list-style-type:none;}*/
+
+a:hover, a:link, a:visited{text-decoration:none;}
+
+.cl{zoom:1;}
+
+/*网站头部*/
+
+.col1000{width:900px; float:left;}
+.nav_box {width:900px;height:45px; padding:0px; position:relative;background-image: url(dhbj.jpg);background-repeat: repeat-x; background-position: left top;}/*原始宽度950*/
+
+
+.tdaohang{font-size:15px;
+
+	height: 45px;
+
+	width: 100%;
+
+	box-shadow: 1px 1px 7px #999;
+
+	position: absolute;
+
+	z-index: 9999;
+
+	left: 0;
+
+	background-color: #08A5E0;
+
+	background-image: url(dhbj.jpg);
+
+	background-repeat: repeat-x;
+
+	background-position: left top;
+
+}
+
+#navul li{float:left;margin-right:1px;width:100px;height:45px;position:relative;text-align:center;line-height:45px; background: url(shubj.png) no-repeat right center;}
+
+#navul li.navhome{text-align:left;padding:0 0px 0 1px;width:60px;}
+
+#navul li a:link, #navul li a:visited{color:#FFFFFF;}
+
+/*
+
+#navul li ul{display:none;position:absolute;z-index:10000;top:43px;left:-1px;background:#006D96;border:#004E6C 1px solid;border-bottom:none;}
+
+#navul li ul li{display:block;width:98px;float:none;margin-right:0px;height:28px;position:relative;line-height:28px;border-bottom:#004E6C 1px solid;font-size:12px;}
+
+原始*/
+
+/*下拉菜单设计*/
+
+#navul li ul{display:none;position:absolute;z-index:10000;top:43px;left:-1px;background:#006D96;border:#004E6C 1px solid;border-bottom:none;}
+
+#navul li ul li{display:block; text-align:left; background:url(submenu_bg.png);background-repeat: repeat; background-position: left top; width:350px; height:134px; position:absolute; color:#007e99; z-index:2; padding:5px 10px;line-height:24px;font-size:14px; border:1px solid #c8c9ca; border-top:none; min-width:100px;  margin-left:-1px; cursor:default;*+width:350px; z-index:999;}
+
+
+
+.xuxian{float:left; width:2px; margin:0 8px; height:134px;border-right-width: 1px;	border-right-style: dashed;	border-right-color: #999;}
+
+.dhx1{ float:left; width:100px; height:100px; padding-top:15px;}
+
+.dhx1 a:link, .dhx1 a:visited{	font-weight: bold; padding-left:15px; height:33px; line-height:33px; background-image: url(ico6.jpg);	background-repeat: no-repeat;	background-position: left center; color: #56b8ca !important;}
+
+.dhx1 a:hover{ color:#900 !important}
+
+
+
+.dhx2{ float:left; width:100px; height:100px; padding-top:15px;}
+
+.dhx2 a:link, .dhx2 a:visited{	font-weight: bold; padding-left:15px; height:33px; line-height:33px; background-image: url(ico6.jpg);	background-repeat: no-repeat;	background-position: left center; color: #56b8ca !important;}
+
+.dhx2 a:hover{ color:#900 !important}
+
+
+
+
+
+
+
+#navul li.navmoon{background:#006D96;border:#004E6C 1px solid;width:98px;height:45px;line-height:45px;}
+
+/*#navul li.navmoon a{color:#FFFFFF;}
+
+#navul li.navhome a:hover{color:#FCFF00;}*/
+
+#navul li.navmoon ul{display:block;}
+
+/*#navul li.navmoon ul a{display:block;width:98px;height:28px;line-height:28px;}
+
+#navul li.navmoon ul a:hover{background:#000000;}*/
